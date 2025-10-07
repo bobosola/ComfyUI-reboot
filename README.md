@@ -26,7 +26,7 @@ You will find **Reboot ComfyUI** in the **utils** folder of the nodes menu. Alte
 
 Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector and adjust the delay parameter accordingly. When you run the workflow ComfyUI will be rebooted after your chosen delay period. Example (near end of workflow):
 
-![How to use the Reboot node](https://raw.githubusercontent.com/bobosola/repo/ComfyUI-reboot/assets/screenshot01.png)
+![How to use the Reboot node](https://raw.githubusercontent.com/bobosola/repo/ComfyUI-reboot/assets/Screenshot01.png)
 
 ### Parameters
 * `url` (_string_) - the server URL in the format `{scheme}://{host}:{port}`. Defaults to the local server as `http://127.0.0.1:8188`.
