@@ -40,3 +40,4 @@ This is based on watarika's [ComfyUI-exit](https://github.com/watarika/ComfyUI-e
 
 ### Change Log
 - v1.0.0 (07-Oct-2025) - 1st release.
+- v1.0.1 (07-Oct-2025) - fixed broken logo URL for Comfy Registry
