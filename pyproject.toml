@@ -1,7 +1,7 @@
 [project]
 name = "reboot"
 description = "Custom node to reboot ComfyUI server"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 dependencies = ["requests"]
 
@@ -14,4 +14,4 @@ Documentation = "https://github.com/bobosola/ComfyUI-reboot/wiki"
 [tool.comfy]
 PublisherId = "bobosola"
 DisplayName = "ComfyUI-reboot"
-Icon = "https://raw.githubusercontent.com/bobosola/repo/ComfyUI-reboot/assets/icon.png"
+Icon = "https://raw.githubusercontent.com/bobosola/ComfyUI-reboot/refs/heads/main/assets/icon.png"
