@@ -31,8 +31,8 @@ Place it at end of your workflow attached to the output of any node. If your fin
 ![How to use the Reboot node](https://github.com/bobosola/ComfyUI-reboot/blob/main/assets/Screenshot01.png)
 
 ### Parameters
-* `server_url` (_string_) - the server URL in the format `{scheme}://{host}:{port}`. Defaults to the local server as `http://127.0.0.1:8188`.
-* `wait_seconds` (_integer_) - the number of seconds to wait until the ComfyUI reboot. Default is 5 seconds. You can change this according to your needs.
+* `server_url` (_string_) - the ComfyUI server URL in the format `{scheme}://{host}:{port}`. Defaults to the local server as `http://127.0.0.1:8188`.
+* `wait_seconds` (_integer_) - the number of seconds to wait until ComfyUI reboots. Default is 5 seconds. You can change this according to your needs.
 
 ### Acknowledgements
 
