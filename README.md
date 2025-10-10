@@ -35,7 +35,7 @@ The example shown below is near end of a workflow:
 ### Parameters
 
 Adjust these according to your needs:
-* `server_url` (_string_) - the ComfyUI server URL in the format `{scheme}://{host}:{port}`. Default is the local server and standard ComfyUI port (`http://127.0.0.1:8188`).
+* `server_url` (_string_) - the ComfyUI server URL in the standard format `{scheme}://{host}:{port}`. Default is the local server and standard ComfyUI port (`http://127.0.0.1:8188`).
 * `wait_seconds` (_integer_) - the number of seconds to wait until ComfyUI reboots. Default is 5 seconds.
 
 ### Acknowledgements
