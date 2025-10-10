@@ -26,7 +26,7 @@ Alternatively, use `git` thus:
 ### Usage
 You should then find **Reboot ComfyUI** in the **utils** folder of the nodes menu. Alternatively, you can double-click in an empty area of the workspace and enter _reboot_ into the node search box.
 
-Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector and adjust the delay parameter accordingly. ComfyUI will be rebooted after your chosen delay period when you run the workflow.
+Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector. You must then set the delay period accordingly to allow enough time for your workflow to complete before the reboot.
 
 The example shown below is near end of a workflow:
 
