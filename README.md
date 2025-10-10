@@ -17,7 +17,7 @@ So this is a solution of last resort. I use it in workflows when calling ComfyUI
 
 If you have [comfy-cli](https://github.com/Comfy-Org/comfy-cli) installed then you can run `comfy node install reboot`.
 
-Or if you have have `git` installed, then do this:
+Alternatively, use `git` thus:
 * `cd /path/to/ComfyUI`
 * `cd custom_nodes`
 * `git clone https://github.com/bobosola/ComfyUI-reboot.git`
@@ -26,7 +26,9 @@ Or if you have have `git` installed, then do this:
 ### Usage
 You should then find **Reboot ComfyUI** in the **utils** folder of the nodes menu. Alternatively, you can double-click in an empty area of the workspace and enter _reboot_ into the node search box.
 
-Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector and adjust the delay parameter accordingly. When you run the workflow ComfyUI will be rebooted after your chosen delay period. The example shown below is near end of workflow:
+Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector and adjust the delay parameter accordingly. ComfyUI will be rebooted after your chosen delay period when you run the workflow.
+
+The example shown below is near end of a workflow:
 
 ![How to use the Reboot node](https://raw.githubusercontent.com/bobosola/ComfyUI-reboot/refs/heads/main/assets/Screenshot01.png)
 
@@ -38,8 +40,8 @@ Adjust these according to your needs:
 
 ### Acknowledgements
 
-This is based on watarika's [ComfyUI-exit](https://github.com/watarika/ComfyUI-exit). I just amended it for my purpose. So many thanks to him.
+This is based on watarika's [ComfyUI-exit](https://github.com/watarika/ComfyUI-exit). I just amended it for my purpose. So many thanks to him for leading the way.
 
 ### Change Log
-- v1.0.0 (07-Oct-2025) - 1st release.
-- v1.0.1 (07-Oct-2025) - fixed broken logo URL for Comfy Registry
+- v1.0.0 (07-Oct-2025) - first release.
+- v1.0.1 (07-Oct-2025) - fix broken logo for Comfy Registry
