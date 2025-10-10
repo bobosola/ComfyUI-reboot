@@ -26,13 +26,15 @@ Or if you have have `git` installed, then do this:
 ### Usage
 You should then find **Reboot ComfyUI** in the **utils** folder of the nodes menu. Alternatively, you can double-click in an empty area of the workspace and enter _reboot_ into the node search box.
 
-Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector and adjust the delay parameter accordingly. When you run the workflow ComfyUI will be rebooted after your chosen delay period. Example (near end of workflow):
+Place it at end of your workflow attached to the output of any node. If your final node has no output to attach to, then attach it to the node nearest to the end which does have an output connector and adjust the delay parameter accordingly. When you run the workflow ComfyUI will be rebooted after your chosen delay period. The example shown below is near end of workflow:
 
-![How to use the Reboot node](https://github.com/bobosola/ComfyUI-reboot/blob/main/assets/Screenshot01.png)
+![How to use the Reboot node](https://raw.githubusercontent.com/bobosola/ComfyUI-reboot/refs/heads/main/assets/Screenshot01.png)
 
 ### Parameters
-* `server_url` (_string_) - the ComfyUI server URL in the format `{scheme}://{host}:{port}`. Defaults to the local server as `http://127.0.0.1:8188`.
-* `wait_seconds` (_integer_) - the number of seconds to wait until ComfyUI reboots. Default is 5 seconds. You can change this according to your needs.
+
+Adjust these according to your needs:
+* `server_url` (_string_) - the ComfyUI server URL in the format `{scheme}://{host}:{port}`. Default is the local server and standard ComfyUI port (`http://127.0.0.1:8188`).
+* `wait_seconds` (_integer_) - the number of seconds to wait until ComfyUI reboots. Default is 5 seconds.
 
 ### Acknowledgements
 
