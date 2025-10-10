@@ -11,7 +11,7 @@ It is registered in the [Comfy Registry](https://registry.comfy.org/nodes/reboot
 
 This node was written to fix issues with some Apple MLX Flux model loaders. These loaders were super-quick compared with regular Flux loaders but failed to free the system memory on completion of the workflow. None of the usual utilities could clear the memory (_Manager -> Unload models_, _Manager -> Free model & node cache_ plus various custom nodes such as _EasyUse -> Clean VRAM_, _Unload Model_, and _Unload All Models_). Nothing worked, the memory was never freed.
 
-So this is a solution of last resort. I use it in workflows when calling ComfyUI from Open WebUI to generate images. The automated ComfyUI reboot at (or near) the end of a workflow allows the system to reclaim the memory without having to manually reboot the ComfyUI server after each image generation.
+So this is a solution of last resort. I use it in workflows when calling ComfyUI from Open WebUI to generate images. The automated ComfyUI reboot on completion of a workflow allows the system to reclaim the memory without having to manually reboot the ComfyUI server after each image generation.
 
 ### Installation
 
